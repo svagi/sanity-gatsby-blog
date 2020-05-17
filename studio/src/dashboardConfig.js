@@ -33,7 +33,11 @@ export default {
             value: 'https://github.com/svagi/sanity-gatsby-blog',
             category: 'Code'
           },
-          { title: 'Frontend', value: 'https://sanity-gatsby-blog-web-zot261j1.netlify.app', category: 'apps' }
+          {
+            title: 'Frontend',
+            value: 'https://sanity-gatsby-blog-web-zot261j1.netlify.app',
+            category: 'apps'
+          }
         ]
       }
     },

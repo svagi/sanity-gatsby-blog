@@ -3,9 +3,9 @@
   "name": "sanity-gatsby-blog-studio",
   "version": "1.0.8",
   "main": "package.json",
-  "author": "Sanity <hello@sanity.io>",
   "scripts": {
     "dev": "sanity start",
+    "start": "yarn dev",
     "format": "prettier-eslint --write \"**/*.js\" \"!node_modules/**\"",
     "build": "sanity build",
     "graphql-deploy": "sanity graphql deploy --playground",
